@@ -9,7 +9,19 @@
   "author": "weiyafei <2553241022@qq.com>",
   "license": "MIT",
   "bin": {
-    "wsy-cli": "init.js"
+    "wsy-cli": "bin/init.js"
   },
-  "description": ""
+  "files": [
+    "./bin",
+    "./src"
+  ],
+  "exclude": [
+    "./node_modules"
+  ],
+  "description": "pc端脚手架",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3"
+  }
 }
