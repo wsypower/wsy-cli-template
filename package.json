@@ -1,0 +1,15 @@
+{
+  "name": "wsy-cli",
+  "version": "0.1.0--alpha.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "weiyafei <2553241022@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "wsy-cli": "init.js"
+  },
+  "description": ""
+}
