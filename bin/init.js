@@ -1,15 +1,26 @@
 #!/usr/bin/env node
+
+// 可用于控制台选择的工具
+const chalk = require("chalk");
+// 可处理控制台命令的工具
+const commander = require("commander");
+// 可改变输出log颜色的工具
+const inquirer = require("inquirer");
+// 可执行shell命令的工具
+const { exec } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-const chalk = require("chalk");
-const commander = require("commander");
-const inquirer = require("inquirer");
 const checkDire = require("../src/utils/checkDire.js");
-const { exec } = require("child_process");
 const { version } = require("../package.json");
-const { promptTypeList } = require("../src/config");
-console.log("wsy-cli运行测试----开始");
+const { promptTypeList } = require("../src/promptTypeList");
 
+console.log("wsy-cli运行测试----开始");
+console.log();
+console.log('-------------------------------------------------------');
+console.log('Assuming you have already run `yarn` to update the deps.');
+console.log('If not, remember to do this before testing!');
+console.log('-------------------------------------------------------');
+console.log();
 //version 版本号
 commander
   .version(version, "-v, --version")

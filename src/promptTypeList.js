@@ -15,11 +15,11 @@ module.exports = {
           },
         },
         {
-          name: "pc",
+          name: "基于ElementUI admin模板",
           value: {
             url: "https://github.com/wsypower/ty-cloud.git",
             gitName: "vue-web-template",
-            val: "PC端模版",
+            val: "admin模板",
           },
         },
       ],

@@ -21,6 +21,7 @@
   "description": "pc端脚手架",
   "dependencies": {
     "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
     "commander": "^6.2.0",
     "inquirer": "^7.3.3"
   }
